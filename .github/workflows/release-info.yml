@@ -1,6 +1,7 @@
 name: Update Release Description
 
 on:
+  workflow_dispatch: # Das hier aktiviert den Button in der UI
   release:
     types: [created] # Wird ausgelöst, sobald du ein Release (auch Entwürfe) erstellst
 
